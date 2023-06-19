@@ -9,7 +9,7 @@ h1 {
   padding-top: 20px;
   text-align: left;
   font-size: 68px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 h5 {
@@ -64,7 +64,7 @@ button:hover {
   margin-top: 0;
   font-size: 80px;
   line-height: 1;
-  font-weight: bold;
+  font-weight: 900;
 }
 .degreeToday {
   font-weight: bold;
@@ -151,6 +151,10 @@ button:hover {
   border-radius: 3px;
 }
 @media (max-width: 550px) {
+  h1 {
+    font-size: 52px;
+    margin-bottom: 0;
+  }
   .one-day {
     background: rgb(208, 232, 245);
     margin-bottom: 3px;
@@ -159,7 +163,7 @@ button:hover {
     background-color: transparent;
   }
   .weather-forecast {
-    margin-top: 0;
+    margin: -10px 10px;
   }
   .emoji {
     position: relative;
@@ -168,5 +172,12 @@ button:hover {
   }
   input {
     text-align: center;
+  }
+  .changeDegree {
+    font-size: 68px;
+    margin-bottom: 0;
+  }
+  .container {
+    margin-top: 0;
   }
 }
